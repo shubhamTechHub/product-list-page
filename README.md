@@ -24,3 +24,11 @@
 - Encode Sans
 - Comme
 </details>
+
+<details>
+
+<summary>Backend Deployment Link</summary>
+
+#### Link: `https://product-list-api-9yzu.onrender.com`
+
+</details>

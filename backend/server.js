@@ -13,8 +13,9 @@ app.use(express.json());
 app.use(cors());
 
 // APIs
-app.get("/api/product", (req, res) => {
-  res.send("Hello world");
+app.get("/api/product", async (req, res) => {
+  const products = await Product.find();
+  res.status(200).json(products);
 });
 
 // add new product
